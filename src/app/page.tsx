@@ -223,7 +223,7 @@ export default function Home() {
       <section className='overflow-hidden     '>
         {/* <Fade direction="down"> */}
           <div className=' h-[90vh] md:h-full lg:h-[90vh] w-full relative flex justify-center items-center px-5'>
-            <Image src={HeroBg} alt={"bg img"} width={1000} height={1000} className="w-full absolute -z-50 top-0 left-0 object-contain " />
+            <Image src={HeroBg} alt={"bg img"} width={1000} height={1000} className="w-full h-[90vh] absolute -z-50 top-0 left-0 object-contain " />
           <div className=" h-[90vh] md:h-[90vh] w-full -z-20 absolute top-0 left-0 bg-black opacity-[.8]">
            </div>
             <div className='flex flex-col-reverse md:flex-col justify-centre  md:justify-evenly text-start max-w-6xl mx-auto  items-center z-20'>
