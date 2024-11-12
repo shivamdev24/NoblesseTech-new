@@ -14,7 +14,7 @@ type TeamCardProps = {
 };
 
 const TeamCard: React.FC<TeamCardProps> = ({ name, role, image, linkedin, twitter, github, number, location }) => (
-    <div className=" rounded p-6 text-center h-64 w-96 justify-center flex flex-col hover:shadow-2xl hover:border hover:rounded-2xl hover:bg-blue-950 shadow text-gray-800 hover:text-white transition duration-300">
+    <div className=" rounded p-6 text-center h-64 w-72 justify-center flex flex-col hover:shadow-2xl hover:border hover:rounded-2xl hover:bg-blue-950 shadow text-gray-800 hover:text-white transition duration-300">
         {/* <Image width={1000} height={1000}
             className="h-[40vh] w-full object-center lg:h-[60vh] lg:w-auto rounded  mx-auto object-cover"
             src={image}
