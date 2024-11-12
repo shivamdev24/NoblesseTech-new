@@ -223,7 +223,7 @@ export default function Home() {
       <section className='overflow-hidden     '>
         {/* <Fade direction="down"> */}
           <div className=' h-[90vh] md:h-full lg:h-[90vh] w-full relative flex justify-center items-center px-5'>
-            <Image src={HeroBg} alt={"bg img"} width={1000} height={1000} className="w-full h-[90vh] absolute -z-50 top-0 left-0 object-contain " />
+            <Image src={HeroBg} alt={"bg img"} width={1000} height={1000} className="w-full h-[90vh] absolute -z-50 top-0 left-0 object-cover lg:object-contain " />
           <div className=" h-[90vh] md:h-[90vh] w-full -z-20 absolute top-0 left-0 bg-black opacity-[.8]">
            </div>
             <div className='flex flex-col-reverse md:flex-col justify-centre  md:justify-evenly text-start max-w-6xl mx-auto  items-center z-20'>
@@ -249,57 +249,16 @@ export default function Home() {
               </div>
 
               
-              {/* <Image src={HeroImg} width={1000} height={1000} className=' hover:scale-105  duration-500' alt="HeroImg" />  </div> */}
+            
           </div>
           </div>
-        {/* </Fade> */}
-        {/* <Image src={HeroImg} width={1000} height={1000} className=' hover:scale-105  duration-500' alt="HeroImg" /> */}
+      
 
 
       </section>
      
 
-      {/* <Fade direction="right" >
-        <section className="">
-          <div className="relative isolate overflow-hidden bg-blue-100 py-24 sm:py-32">
-            <div
-              aria-hidden="true"
-              className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
-            >
-              <div
-                style={{
-                  clipPath:
-                    "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
-                }}
-                className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
-              />
-            </div>
-            <div
-              aria-hidden="true"
-              className="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu"
-            >
-              <div
-                style={{
-                  clipPath:
-                    "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
-                }}
-                className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ea3465] to-[#766fffcb] opacity-20"
-              />
-            </div>
-            <div className="mx-auto max-w-7xl  md:px-6 flex flex-col md:flex-row justify-between gap-6   px-6">
-              <div className="w-full md:w-1/4">
-                <h1 className="text-lg  md:text-2xl font-bold text-blue-800">Intro</h1>
-              </div>
-              <div className="w-full md:w-3/4">
-                <h4 className="text-xl font-bold leading-[28px] md:text-6xl">
-                  IT Consulting who believes in organic and sustainable growth
-                  of our clients through strategy, design and technology.
-                </h4>
-              </div>
-            </div>
-          </div>
-        </section>
-      </Fade> */}
+      
 
      
 
@@ -324,35 +283,7 @@ export default function Home() {
             <div className=" h-[90vh] md:h-[90vh] w-full -z-20 absolute top-0 left-0 bg-black opacity-[.6]">
             </div>
 
-            {/* <svg
-              viewBox="0 0 1024 1024"
-              aria-hidden="true"
-              className="absolute left-1/4 top-1/4  h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]  sm:left-full sm:-ml-80 lg:left-1/4 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-1"
-            >
-              <circle r={512} cx={512} cy={512} fill="#CFA6E7" fillOpacity="0.7" />
-              <defs>
-                <radialGradient id="CFA6E7">
-                  <stop stopColor="#7775D6" />
-                  <stop offset={1} stopColor="#E935C1" />
-                </radialGradient>
-              </defs>
-            </svg>
-
-
-
-            <svg
-              viewBox="0 0 1024 1024"
-              aria-hidden="true"
-              className="absolute right-1/2 -top-1/4  h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]  sm:left-full sm:-ml-80 lg:right-1/2 lg:ml-0 lg:-translate-x-1/2 lg:-translate-y-5"
-            >
-              <circle r={512} cx={512} cy={512} fill="#CFA6E7" fillOpacity="0.7" />
-              <defs>
-                <radialGradient id="CFA6E7">
-                  <stop stopColor="#7775D6" />
-                  <stop offset={1} stopColor="#E935C1" />
-                </radialGradient>
-              </defs>
-            </svg> */}
+          
            
             <div className="mx-auto max-w-7xl flex flex-col items-center  px-6 lg:px-8">
               <Fade direction="down">
@@ -364,17 +295,7 @@ export default function Home() {
                   </p>
                 </div>
               </Fade>
-              {/* <div className="mx-auto mt-10 max-w-2xl  lg:max-w-none">
-               
-                <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
-                  {stats.map((stat) => (
-                    <div key={stat.name} className="flex flex-col-reverse gap-1">
-                      <dt className="text-gray-700">{stat.name}</dt>
-                      <dd className="text-4xl font-semibold tracking-tight">{stat.value}</dd>
-                    </div>
-                  ))}
-                </dl>
-              </div> */}
+             
             </div>
           </div>
         </section>
@@ -382,19 +303,14 @@ export default function Home() {
         
       </Fade>
 
-      {/* <Fade direction="up" >
-        <section className="py-5 md:py-8">
-          <InfiniteTextMoving />
-        </section>
-      </Fade> */}
-     
+    
 
 
 
       
       <section className="py-8 relative flex flex-col items-center bg-gradient-to-tr   from-[#fff] to-blue-500/[.5]">
         <h1 className="z-30 relative text-center font-bold text-2xl lg:text-4xl text-blue-600 py-10">Our Project</h1>
-        {/* <div className="absolute pointer-events-none inset-1 flex items-center justify-center   [mask-image:radial-gradient(ellipse_at_center,transparent_10%,black)]"></div> */}
+       
         <div className="grid grid-cols-1 md:grid-cols-2 max-w-6xl mx-auto gap-8 px-5 lg:px-0 justify-center items-center">
           <Fade direction="down">
             <div className="border w-full  hover:scale-105  duration-500 rounded bg-white"> <Image
@@ -448,30 +364,7 @@ export default function Home() {
 
 
 
-      {/* <section className="py-10 bg-gray-300 ">
-        <div>
-          <div className="flex flex-col max-w-7xl mx-auto gap-5 justify-center items-center">
-            <Fade direction="left" >
-              <h1 className="text-center py-10 font-bold text-2xl md:text-4xl text-white">
-                What We Offer.
-              </h1>
-            </Fade>
-
-
-            <div className="px-5 max-w-7xl mx-auto  ">
-              <ServiceComponentHome />
-            </div>
-            <Fade direction="up" >
-              <Link
-                className="text-center text-2xl text-white underline hover:text-blue-900 duration-500 py-1 rounded mt-8 "
-                href="/service"
-              >
-                Read More....
-              </Link>
-            </Fade>
-          </div>
-        </div>
-      </section> */}
+    
 
 
       <section>
