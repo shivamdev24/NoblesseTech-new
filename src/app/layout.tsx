@@ -7,8 +7,8 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Tecklo",
-  description: "Tecklo.co provides expert IT solutions and consulting, specializing in software development, web and mobile apps, and digital transformation to enhance business growth and efficiency.",
+  title: "NoblesseTech",
+  description: "NoblesseTech provides expert IT solutions and consulting, specializing in software development, web and mobile apps, and digital transformation to enhance business growth and efficiency.",
 };
 
 export default function RootLayout({
