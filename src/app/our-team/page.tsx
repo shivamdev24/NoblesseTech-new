@@ -13,24 +13,44 @@ export const metadata: Metadata = {
 
 const teamMembers = [
     {
-        name: "Uddashay Arora",
-        role: "CEO",
-        image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGVvcGxlJTIwcHJvZmVzc2lvbmFsfGVufDB8fDB8fHww",
-        linkedin: "https://linkedin.com/",
-        twitter: "https://twitter.com/",
-        github: "https://github.com/",
-        number: "+1 (236) 238-1642",
-        location: "British Columbia - West"
+        name: "Vineet Gautam",
+        role: "CO-OWNER",
+        image: "https://img.freepik.com/free-vector/young-man-with-glasses-avatar_1308-175763.jpg?semt=ais_hybrid",
+        linkedin: "https://www.linkedin.com/in/vineet-gautam-9b3b82141/",
+        twitter: "",
+        github: "",
+        number: "",
+        location: ""
     },
     {
-        name: "Prabhakar",
-        role: "Territory Manager",
-        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGVvcGxlJTIwcHJvZmVzc2lvbmFsfGVufDB8fDB8fHww",
-        linkedin: "https://linkedin.com/",
-        twitter: "https://twitter.com/",
-        github: "https://github.com/",
-        number: "+1 (250) 797-2237",
-        location: "Vancouver Island"
+        name: "Shivam Sharma",
+        role: "Software Development Intern",
+        image: "https://img.freepik.com/free-vector/young-man-with-glasses-avatar_1308-175763.jpg?semt=ais_hybrid",
+        linkedin: "https://www.linkedin.com/in/shivamdev24/",
+        twitter: "https://x.com/shivamdev24",
+        github: "https://github.com/shivamdev24",
+        number: "",
+        location: ""
+    },
+    {
+        name: "Mohammad Sohail",
+        role: "Flutter Developer Intern",
+        image: "https://img.freepik.com/free-vector/young-man-with-glasses-avatar_1308-175763.jpg?semt=ais_hybrid",
+        linkedin: "",
+        twitter: "",
+        github: "",
+        number: "",
+        location: ""
+    },
+    {
+        name: "Rajesh",
+        role: "UI/UX Intern",
+        image: "https://img.freepik.com/free-vector/young-man-with-glasses-avatar_1308-175763.jpg?semt=ais_hybrid",
+        linkedin: "",
+        twitter: "",
+        github: "",
+        number: "",
+        location: ""
     },
     
     // Add more team members as needed
@@ -106,7 +126,7 @@ const TeamPage = () => (
         </section>
         <section className="h-full pb-20  py-12">
 
-            <div className="max-w-4xl mx-auto px-6 lg:px-8">
+            <div className="max-w-5xl mx-auto px-6 lg:px-8">
                 <div className="grid gap-8 grid-cols-1 md:grid-cols-2 ">
                     {teamMembers.map((member, index) => (
                         <TeamCard key={index} {...member} />
