@@ -27,21 +27,21 @@ const ContactCTA = () => {
                         get back to you as soon as possible.
                     </p>
                 </div>
-                <div className="flex flex-col items-center space-y-4">
-                    <button
-                        onClick={handleCall}
-                        className="bg-white text-black font-bold py-2 px-4 rounded transition duration-200 hover:bg-gray-200 flex items-center"
+                <div className="flex flex-col items-center w-full space-y-4 ">
+                    <a
+                        href="tel:+91 88270 15401"
+                        className="bg-white text-black font-bold py-2 w-full lg:w-80 text-center px-4 rounded transition duration-200 hover:bg-gray-200 flex items-center"
                     >
                         <FaPhoneAlt className="mr-2" />
                         Call Us: +91 88270 15401
-                    </button>
-                    <button
-                        onClick={handleEmail}
-                        className="bg-blue-800 text-white font-bold py-2 px-4 rounded transition duration-200 hover:bg-blue-600 flex items-center"
+                    </a>
+                    <a
+                        href="mailto:admin@noblessetech.com"
+                        className="bg-blue-800 text-white w-full lg:w-80  py-2 px-4 text-center rounded transition duration-200 hover:bg-blue-600 flex items-center"
                     >
                         <FaEnvelope className="mr-2" />
-                        Email Us: admin@noblessetech.com
-                    </button>
+                        Email: admin@noblessetech.com
+                    </a>
                 </div>
             </div>
        </div>

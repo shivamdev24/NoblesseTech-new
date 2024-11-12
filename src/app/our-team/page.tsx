@@ -24,7 +24,7 @@ const teamMembers = [
     },
     {
         name: "Shivam Sharma",
-        role: "Software Development Intern",
+        role: "Software Development ",
         image: "https://img.freepik.com/free-vector/young-man-with-glasses-avatar_1308-175763.jpg?semt=ais_hybrid",
         linkedin: "https://www.linkedin.com/in/shivamdev24/",
         twitter: "https://x.com/shivamdev24",
@@ -34,7 +34,7 @@ const teamMembers = [
     },
     {
         name: "Mohammad Sohail",
-        role: "Flutter Developer Intern",
+        role: "Flutter Developer ",
         image: "https://img.freepik.com/free-vector/young-man-with-glasses-avatar_1308-175763.jpg?semt=ais_hybrid",
         linkedin: "",
         twitter: "",
@@ -44,7 +44,7 @@ const teamMembers = [
     },
     {
         name: "Rajesh",
-        role: "UI/UX Intern",
+        role: "UI/UX ",
         image: "https://img.freepik.com/free-vector/young-man-with-glasses-avatar_1308-175763.jpg?semt=ais_hybrid",
         linkedin: "",
         twitter: "",

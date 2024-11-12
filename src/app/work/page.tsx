@@ -9,28 +9,12 @@ import St2 from '@/assets/images/st2.png'
 import Wd1 from '@/assets/images/wd1.png'
 import Wd2 from '@/assets/images/wd2.png'
 
-import A1 from '@/assets/images/A1.png'
-import A2 from '@/assets/images/A2.png'
-import B1 from '@/assets/images/B1.png'
-import B2 from '@/assets/images/B2.png'
-import C1 from '@/assets/images/C1.png'
-import C2 from '@/assets/images/C2.png'
-import D1 from '@/assets/images/D1.png'
-import D2 from '@/assets/images/D2.png'
-import E1 from '@/assets/images/E1.png'
-import E2 from '@/assets/images/E2.png'
-import F1 from '@/assets/images/F1.png'
-import F2 from '@/assets/images/F2.png'
-import G1 from '@/assets/images/G1.png'
-import G2 from '@/assets/images/G2.png'
-import H1 from '@/assets/images/H1.png'
-import H2 from '@/assets/images/H2.png'
-import I1 from '@/assets/images/I1.png'
-import I2 from '@/assets/images/I2.png'
-import J1 from '@/assets/images/J1.png'
-import J2 from '@/assets/images/J2.png'
+import te1 from '@/assets/images/te1.png'
+import te2 from '@/assets/images/te2.png'
+
 import AP1 from '@/assets/images/ap1.jpg'
 import AP2 from '@/assets/images/ap2.jpg'
+import Stamp1 from '@/assets/images/stamp.jpeg'
 
 
 
@@ -50,34 +34,34 @@ export const metadata: Metadata = {
 const Project = [
   
   
-  {
-    projectName: "Sweepy Maid",
-    projectDescription:
-      "Professional and Quality Home Cleaning Service Company in Vancouver",
-    img1: A1,
-    img2: A2,
-  },
-  {
-    projectName: "Pho 68",
-    projectDescription:
-      "Vietnamese cuisine features a unique blend of five fundamental tastes, with each dish offering distinct flavors. Common ingredients include shrimp paste, fish sauce, rice, fresh herbs, fruits, and vegetables.",
-    img1: B1,
-    img2: B2,
-  },
-  {
-    projectName: "HAVELI BISTRO",
-    projectDescription:
-      "Indulge in a culinary journey at Haveli Bistro, where each dish blends traditional Indian flavors with modern flair. Our diverse menu promises mouth-watering dishes for every occasion.",
-    img1: C1,
-    img2: C2,
-  },
-  {
-    projectName: "PARATHA 2 PASTA",
-    projectDescription:
-      "We use the best quality, natural & local ingredients in our dishes. ",
-    img1: D1,
-    img2: D2,
-  },
+  // {
+  //   projectName: "Sweepy Maid",
+  //   projectDescription:
+  //     "Professional and Quality Home Cleaning Service Company in Vancouver",
+  //   img1: A1,
+  //   img2: A2,
+  // },
+  // {
+  //   projectName: "Pho 68",
+  //   projectDescription:
+  //     "Vietnamese cuisine features a unique blend of five fundamental tastes, with each dish offering distinct flavors. Common ingredients include shrimp paste, fish sauce, rice, fresh herbs, fruits, and vegetables.",
+  //   img1: B1,
+  //   img2: B2,
+  // },
+  // {
+  //   projectName: "HAVELI BISTRO",
+  //   projectDescription:
+  //     "Indulge in a culinary journey at Haveli Bistro, where each dish blends traditional Indian flavors with modern flair. Our diverse menu promises mouth-watering dishes for every occasion.",
+  //   img1: C1,
+  //   img2: C2,
+  // },
+  // {
+  //   projectName: "PARATHA 2 PASTA",
+  //   projectDescription:
+  //     "We use the best quality, natural & local ingredients in our dishes. ",
+  //   img1: D1,
+  //   img2: D2,
+  // },
   {
     projectName: "Shelves Tech",
     projectDescription:
@@ -87,19 +71,34 @@ const Project = [
     img2: St2,
   },
   {
-    projectName: "DELIGHT BITE",
+    projectName: "Stamp Automation for Tata Capital Finance",
     projectDescription:
-      "your ultimate destination for Best Indian Food in Coquitlam. Delight Bite is the Best Indian Restaurant in Coquitlam.",
-    img1: E1,
-    img2: E2,
+      "Automated the process of stamp printing by integrating user-specific information through a seamless flow involving computer vision and AI. Optimized the workflow by utilizing an automated system with a computer and printer, significantly reducing the cost of manually filling out stamp paper. This process reduced the cost by approximately 80%.",
+    // Live: "https://shelvestech.com/",
+    img1: Stamp1,
   },
   {
-    projectName: "IMSU",
+    projectName: "Sky Candy",
     projectDescription:
-      "Helping Immigration Firms grow consistently through innovative approaches, proven strategies & consistent results.",
-    img1: F1,
-    img2: F2,
+      "Welcome to Bir Billing, paragliding capital, where adventure meets breathtaking views. Soar from 2,400 meters over lush valleys, forests, and snow-capped peaks in the scenic Dhauladhar Range for an unforgettable experience.",
+    Live: "https://www.birparagliding.in/",
+    img1: Sky1,
+    img2: Sky2,
   },
+  // {
+  //   projectName: "DELIGHT BITE",
+  //   projectDescription:
+  //     "your ultimate destination for Best Indian Food in Coquitlam. Delight Bite is the Best Indian Restaurant in Coquitlam.",
+  //   img1: E1,
+  //   img2: E2,
+  // },
+  // {
+  //   projectName: "IMSU",
+  //   projectDescription:
+  //     "Helping Immigration Firms grow consistently through innovative approaches, proven strategies & consistent results.",
+  //   img1: F1,
+  //   img2: F2,
+  // },
   {
     projectName: "WoodAndVeneer",
     projectDescription:
@@ -109,42 +108,43 @@ const Project = [
     img2: Wd2,
   },
   {
-    projectName: "Convertithub",
+    projectName: "Tecklo",
     projectDescription:
-      "Convert It Hub will help you build a guaranteed client aquisition system so you don’t have to rely on expensive lead providers to survive.",
-    img1: G1,
-    img2: G2,
+      "Tecklo is an IT consulting firm focused on driving organic and sustainable growth for our clients. We combine strategic planning, innovative design, and cutting-edge technology to create tailored solutions that enhance efficiency and support long-term success.",
+    Live: "https://tecklo.co/",
+    img1: te1,
+    img2: te2,
   },
-  {
-    projectName: "WebAbility",
-    projectDescription:
-      "Your Ultimate Web Accessibility Widget for ADA & WCAG Compliance",
-    img1: H1,
-    img2: H2,
-  },
-  {
-    projectName: "MISSION DRIVING SCHOOL",
-    projectDescription:
-      "Your journey towards safe driving starts with Mission Driving School",
-    img1: I1,
-    img2: I2,
-  },
-  {
-    projectName: "RAFFLES EDUCITY",
-    projectDescription:
-      "Providing award-winning immigration services for over a decade with expert legal solutions tailored to meet our clients' needs in a fast-evolving industry.",
-    img1: J1,
-    img2: J2,
-  },
+  // {
+  //   projectName: "Convertithub",
+  //   projectDescription:
+  //     "Convert It Hub will help you build a guaranteed client aquisition system so you don’t have to rely on expensive lead providers to survive.",
+  //   img1: G1,
+  //   img2: G2,
+  // },
+  // {
+  //   projectName: "WebAbility",
+  //   projectDescription:
+  //     "Your Ultimate Web Accessibility Widget for ADA & WCAG Compliance",
+  //   img1: H1,
+  //   img2: H2,
+  // },
+  // {
+  //   projectName: "MISSION DRIVING SCHOOL",
+  //   projectDescription:
+  //     "Your journey towards safe driving starts with Mission Driving School",
+  //   img1: I1,
+  //   img2: I2,
+  // },
+  // {
+  //   projectName: "RAFFLES EDUCITY",
+  //   projectDescription:
+  //     "Providing award-winning immigration services for over a decade with expert legal solutions tailored to meet our clients' needs in a fast-evolving industry.",
+  //   img1: J1,
+  //   img2: J2,
+  // },
 
-  {
-    projectName: "Sky Candy",
-    projectDescription:
-      "Welcome to Bir Billing, paragliding capital, where adventure meets breathtaking views. Soar from 2,400 meters over lush valleys, forests, and snow-capped peaks in the scenic Dhauladhar Range for an unforgettable experience.",
-    Live: "https://www.birparagliding.in/",
-    img1: Sky1,
-    img2: Sky2,
-  },
+  
 ];
 
 
@@ -261,13 +261,18 @@ function page() {
                       className="w-full md:w-96 h-56 mt-4 ml-4 rounded object-fill "
                     />
                   </div>
-                  <Image
-                    src={props.img2}
-                    width={1000}
-                    height={1000}
-                    alt="project image"
-                    className="w-full md:w-96 hover:shadow-xl duration-500 rounded-[8px] shadow-md border"
-                  />
+                  {
+                    props.img2 ? (
+                      <Image
+                        src={props.img2}
+                        width={1000}
+                        height={1000}
+                        alt="project image"
+                        className="w-full md:w-96 hover:shadow-xl duration-500 rounded-[8px] shadow-md border"
+                      />
+                    ) : null
+                  }
+
                 </div>
               </div>
             ))}
@@ -296,13 +301,13 @@ function page() {
                   </a> */}
                   </div>
                   <div className="  flex flex-col md:flex-row gap-8">
-                    <div className="border rounded-[15px] h-[70vh] overflow-hidden w-full md:w-72 bg-blue-600 shadow-md hover:shadow-xl duration-500">
+                    <div className="border rounded-[15px] h-[60vh] overflow-hidden w-full md:w-80 bg-blue-600 shadow-md hover:shadow-xl duration-500">
                       <Image
                         src={props.img1}
                         width={1000}
                         height={1000}
                         alt="project image"
-                        className="w-full md:w-72  h-[70vh] object-cover  mt-4 ml-4 rounded-[6px] border "
+                        className="w-full md:w-80  h-[60vh] object-cover  mt-4 ml-4 rounded-[6px] border "
                       />
                     </div>
                     <Image
@@ -310,7 +315,7 @@ function page() {
                       width={1000}
                       height={1000}
                       alt="project image"
-                      className="w-full md:w-72  h-[70vh] hover:shadow-xl duration-500 object-cover p-2 bg-blue-900 rounded-[20px] shadow-md border"
+                      className="w-full md:w-80  h-[60vh] hover:shadow-xl duration-500 object-cover p-2 bg-blue-900 rounded-[20px] shadow-md border"
                     />
                   </div>
                 </div>

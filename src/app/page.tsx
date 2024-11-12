@@ -27,10 +27,11 @@ import { Button } from "@/components/ui/button"
 
 
 
-import A1 from '@/assets/images/A1.png'
+import A1 from '@/assets/images/st1.png'
 import B1 from '@/assets/images/B1.png'
-import C1 from '@/assets/images/C1.png'
-import D1 from '@/assets/images/D1.png'
+import C1 from '@/assets/images/sk1.png'
+import D1 from '@/assets/images/ap1.jpg'
+import D2 from '@/assets/images/ap2.jpg'
 import CTAButton from "@/components/CTAButton";
 import React from "react";
 
@@ -188,37 +189,7 @@ export default function Home() {
 
   return (
     <main className="">
-      {/* <section>
-        <div className="flex flex-col overflow-hidden -mt-16   bg-gradient-to-tr   from-[#7240bddd] to-[#00276be3]   ">
-          <ContainerScroll
-            titleComponent={
-              <>
-                <div className=" flex flex-col lg:flex-row justify-between md:px-10 gap-6 border-t-2 pt-8  text-start px-5">
-                  <div className="w-full md:w-1/4">
-                    <h1 className="text-base md:text-2xl font-bold text-white">
-                      At Tecklo
-                    </h1>
-                  </div>
-                  <div className="w-full md:w-3/4">
-                    <h4 className="text-xl font-bold leading-[28px] md:text-5xl text-white">
-                      We Transform Your IT Challenges into Seamless Solutions
-                    </h4>
-                  </div>
-                </div>
-              </>
-            }
-          >
-            <Image
-              src={Img1}
-              alt="hero"
-              height={720}
-              width={1400}
-              className=" rounded-2xl object-cover h-full object-center"
-              // draggable={false}
-            />
-          </ContainerScroll>
-        </div>
-      </section> */}
+    
 
       <section className='overflow-hidden     '>
         {/* <Fade direction="down"> */}
@@ -238,10 +209,10 @@ export default function Home() {
 <div className="flex justify-center gap-5 mt-8 max-w-5xl mx-auto flex-col lg:flex-row">
 
                 <Button asChild variant="secondary" className="bg-blue-600 text-white hover:bg-blue-500 hover:text-white rounded py-6 text-lg">
-                    <Link href="/work">Glimps to our projects</Link>
+                    <Link href="/work">Glimpse to our projects</Link>
                   </Button>
                 <Button asChild variant="outline" className="hover:bg-gray-800 outline-blue-500 bg-white hover:text-white text-blue-500   rounded py-6 w-56 text-lg">
-                    <a href="mailto:">Mail Us Now</a>
+                  <a href="mailto: admin@noblessetech.com">Mail Us Now</a>
                   </Button>
 </div>
 
@@ -289,7 +260,7 @@ export default function Home() {
               <Fade direction="down">
                 <div className="mx-auto text-center max-w-2xl lg:mx-0">
                   <h3 className="text-base/7 font-semibold text-yellow-400 mb-4">Your Trusted Partner in Growth</h3>
-                  <h2 className="text-4xl font-semibold tracking-tight text-white sm:text-7xl">About Tecklo</h2>
+                  <h2 className="text-4xl font-semibold tracking-tight text-white sm:text-7xl">About Noblessetech</h2>
                   <p className="mt-8 text-lg font-medium text-blue-100 sm:text-xl">
                     We specialize in helping businesses of all sizes enhance their online presence and achieve their goals.
                   </p>
@@ -318,9 +289,9 @@ export default function Home() {
               width={1000}
               height={1000}
               alt="about"
-              className="w-full  border rounded-t  hover:rounded  object-contain md:object-cover shadow-lg shadow-white transform   z-50 "
+              className="w-full  border rounded-t h-auto hover:rounded  object-contain md:object-cover shadow-lg shadow-white transform   z-50 "
             />
-              <p className="font-bold text-blue-500 text-lg text-start p-3">Sweepy Maid</p>
+              <p className="font-bold text-blue-500 text-lg text-start p-3">Shelvestech</p>
             </div>
          </Fade>
           <Fade direction="down">
@@ -329,9 +300,9 @@ export default function Home() {
               width={1000}
               height={1000}
               alt="about"
-              className="w-full  border rounded-t  hover:rounded object-contain md:object-cover shadow-lg shadow-white transform   z-50 "
+              className="w-full  border rounded-t h-auto hover:rounded object-contain md:object-cover shadow-lg shadow-white transform   z-50 "
             />
-              <p className="font-bold text-blue-500 text-lg text-start p-3">Pho 68</p>
+              <p className="font-bold text-blue-500 text-lg text-start p-3">Stam Automation For Tata Capital Finance</p>
             </div>
           </Fade>
           <Fade direction="down">
@@ -340,20 +311,21 @@ export default function Home() {
               width={1000}
               height={1000}
               alt="about"
-              className="w-full   border rounded-t  hover:rounded object-contain md:object-cover shadow-lg shadow-white transform   z-50 "
+              className="w-full   border rounded-t h-auto hover:rounded object-contain md:object-cover shadow-lg shadow-white transform   z-50 "
             />
-              <p className="font-bold text-blue-500 text-lg text-start p-3">HAVELI BISTRO</p>
+              <p className="font-bold text-blue-500 text-lg text-start p-3">Skycandy</p>
             </div>
          </Fade>
           <Fade direction="down">
-            <div className="border w-full hover:scale-105 duration-500 rounded bg-white"> <Image
-              src={D1}
-              width={1000}
-              height={1000}
-              alt="about"
-              className="w-full  border rounded-t  hover:rounded object-contain md:object-cover shadow-lg shadow-white transform   z-50 "
-            />
-              <p className="font-bold text-blue-500 text-lg text-start p-3">PARATHA 2 PASTA</p>
+            <div className="border w-full  hover:scale-105 duration-500 rounded bg-white"> 
+              <Image
+                src={D1}
+                width={1000}
+                height={1000}
+                alt="about"
+                className="w-80 mx-auto    rounded-t h-auto lg:h-64 hover:rounded object-cover  shadow-lg shadow-white transform  object-center  z-50 "
+              />
+              <p className="font-bold text-blue-500 text-lg text-start p-3">Epic Hair</p>
             </div>
           </Fade>
           
